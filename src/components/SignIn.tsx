@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Button } from "./Button";
 import { Input } from "./Input";
-import { BACKEND_URL } from "./config";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
